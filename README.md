@@ -19,4 +19,6 @@ Building a CNN architecture from scratch for predicting dog breeds.
 ### Step 4:
 Using transfer learning to create a CNN to classify dog Breeds.
 
-[This is the capstone project for Udacity Data Scientist Nanodegree]
+Detailed discussion can be found at this [blog](https://medium.com/@ankur_kumar/identify-the-dogs-breed-using-neural-network-d571cd7f1459)
+
+[This is the capstone project for Udacity Data Scientist Nanodegree Program]
