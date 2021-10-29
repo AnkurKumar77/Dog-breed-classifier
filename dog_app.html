@@ -13173,19 +13173,6 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">ls</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
 <div class="prompt input_prompt">In&nbsp;[1]:</div>
 <div class="inner_cell">
     <div class="input_area">
@@ -13316,7 +13303,7 @@ There are 836 test dog images.
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[3]:</div>
+<div class="prompt input_prompt">In&nbsp;[32]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">cv2</span>                
@@ -13400,7 +13387,7 @@ There are 836 test dog images.
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[4]:</div>
+<div class="prompt input_prompt">In&nbsp;[33]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># returns &quot;True&quot; if face is detected in image stored at img_path</span>
@@ -13434,7 +13421,7 @@ There are 836 test dog images.
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[5]:</div>
+<div class="prompt input_prompt">In&nbsp;[34]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">human_files_short</span> <span class="o">=</span> <span class="n">human_files</span><span class="p">[:</span><span class="mi">100</span><span class="p">]</span>
@@ -13519,7 +13506,7 @@ We can make use of better detection algorithms for eg: faster rcnn with pre-trai
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[6]:</div>
+<div class="prompt input_prompt">In&nbsp;[35]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">keras.applications.resnet50</span> <span class="k">import</span> <span class="n">ResNet50</span>
@@ -13529,6 +13516,25 @@ We can make use of better detection algorithms for eg: faster rcnn with pre-trai
 </pre></div>
 
     </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Downloading data from https://github.com/fchollet/deep-learning-models/releases/download/v0.2/resnet50_weights_tf_dim_ordering_tf_kernels.h5
+102858752/102853048 [==============================] - 2s 0us/step
+</pre>
+</div>
+</div>
+
 </div>
 </div>
 
@@ -13553,7 +13559,7 @@ $$<p>Here, <code>nb_samples</code> is the number of samples, or number of images
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[7]:</div>
+<div class="prompt input_prompt">In&nbsp;[4]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">keras.preprocessing</span> <span class="k">import</span> <span class="n">image</span>                  
@@ -13589,7 +13595,7 @@ $$<p>Here, <code>nb_samples</code> is the number of samples, or number of images
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[8]:</div>
+<div class="prompt input_prompt">In&nbsp;[5]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">keras.applications.resnet50</span> <span class="k">import</span> <span class="n">preprocess_input</span><span class="p">,</span> <span class="n">decode_predictions</span>
@@ -13616,7 +13622,7 @@ $$<p>Here, <code>nb_samples</code> is the number of samples, or number of images
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[9]:</div>
+<div class="prompt input_prompt">In&nbsp;[6]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">### returns &quot;True&quot; if a dog is detected in the image stored at img_path</span>
@@ -13647,7 +13653,7 @@ $$<p>Here, <code>nb_samples</code> is the number of samples, or number of images
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[10]:</div>
+<div class="prompt input_prompt">In&nbsp;[36]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">### TODO: Test the performance of the dog_detector function</span>
@@ -13753,7 +13759,7 @@ $$<p>Here, <code>nb_samples</code> is the number of samples, or number of images
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[11]:</div>
+<div class="prompt input_prompt">In&nbsp;[7]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">PIL</span> <span class="k">import</span> <span class="n">ImageFile</span>                            
@@ -13779,9 +13785,9 @@ $$<p>Here, <code>nb_samples</code> is the number of samples, or number of images
 
 
 <div class="output_subarea output_stream output_stderr output_text">
-<pre>100%|██████████| 6680/6680 [01:11&lt;00:00, 93.94it/s] 
-100%|██████████| 835/835 [00:08&lt;00:00, 104.36it/s]
-100%|██████████| 836/836 [00:07&lt;00:00, 104.93it/s]
+<pre>100%|██████████| 6680/6680 [01:08&lt;00:00, 98.11it/s] 
+100%|██████████| 835/835 [00:08&lt;00:00, 105.51it/s]
+100%|██████████| 836/836 [00:08&lt;00:00, 97.45it/s] 
 </pre>
 </div>
 </div>
@@ -13811,7 +13817,7 @@ I also added a Dropout layer in between to reduce overfitting.</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[71]:</div>
+<div class="prompt input_prompt">In&nbsp;[8]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">keras.layers</span> <span class="k">import</span> <span class="n">Conv2D</span><span class="p">,</span> <span class="n">MaxPooling2D</span><span class="p">,</span> <span class="n">GlobalAveragePooling2D</span>
@@ -13832,6 +13838,8 @@ I also added a Dropout layer in between to reduce overfitting.</p>
     <span class="n">Conv2D</span><span class="p">(</span><span class="mi">32</span><span class="p">,</span> <span class="p">(</span><span class="mi">3</span><span class="p">,</span><span class="mi">3</span><span class="p">),</span> <span class="n">activation</span><span class="o">=</span><span class="s1">&#39;relu&#39;</span><span class="p">),</span>
     <span class="n">MaxPooling2D</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span><span class="mi">2</span><span class="p">),</span>
     <span class="n">Dropout</span><span class="p">(</span><span class="mf">0.4</span><span class="p">),</span> <span class="c1"># Adding a dropout layer for reducing over-specialization</span>
+    
+    <span class="c1"># 4th convolution</span>
     <span class="n">Conv2D</span><span class="p">(</span><span class="mi">32</span><span class="p">,</span> <span class="p">(</span><span class="mi">3</span><span class="p">,</span><span class="mi">3</span><span class="p">),</span> <span class="n">activation</span><span class="o">=</span><span class="s1">&#39;relu&#39;</span><span class="p">),</span>
     <span class="n">MaxPooling2D</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span><span class="mi">2</span><span class="p">),</span>
      
@@ -13865,31 +13873,31 @@ I also added a Dropout layer in between to reduce overfitting.</p>
 <pre>_________________________________________________________________
 Layer (type)                 Output Shape              Param #   
 =================================================================
-conv2d_3483 (Conv2D)         (None, 222, 222, 16)      448       
+conv2d_1 (Conv2D)            (None, 222, 222, 16)      448       
 _________________________________________________________________
-max_pooling2d_154 (MaxPoolin (None, 111, 111, 16)      0         
+max_pooling2d_1 (MaxPooling2 (None, 111, 111, 16)      0         
 _________________________________________________________________
-conv2d_3484 (Conv2D)         (None, 109, 109, 16)      2320      
+conv2d_2 (Conv2D)            (None, 109, 109, 16)      2320      
 _________________________________________________________________
-max_pooling2d_155 (MaxPoolin (None, 54, 54, 16)        0         
+max_pooling2d_2 (MaxPooling2 (None, 54, 54, 16)        0         
 _________________________________________________________________
-conv2d_3485 (Conv2D)         (None, 52, 52, 32)        4640      
+conv2d_3 (Conv2D)            (None, 52, 52, 32)        4640      
 _________________________________________________________________
-max_pooling2d_156 (MaxPoolin (None, 26, 26, 32)        0         
+max_pooling2d_3 (MaxPooling2 (None, 26, 26, 32)        0         
 _________________________________________________________________
-dropout_6 (Dropout)          (None, 26, 26, 32)        0         
+dropout_1 (Dropout)          (None, 26, 26, 32)        0         
 _________________________________________________________________
-conv2d_3486 (Conv2D)         (None, 24, 24, 32)        9248      
+conv2d_4 (Conv2D)            (None, 24, 24, 32)        9248      
 _________________________________________________________________
-max_pooling2d_157 (MaxPoolin (None, 12, 12, 32)        0         
+max_pooling2d_4 (MaxPooling2 (None, 12, 12, 32)        0         
 _________________________________________________________________
-flatten_3 (Flatten)          (None, 4608)              0         
+flatten_1 (Flatten)          (None, 4608)              0         
 _________________________________________________________________
-dropout_7 (Dropout)          (None, 4608)              0         
+dropout_2 (Dropout)          (None, 4608)              0         
 _________________________________________________________________
-dense_10 (Dense)             (None, 256)               1179904   
+dense_1 (Dense)              (None, 256)               1179904   
 _________________________________________________________________
-dense_11 (Dense)             (None, 133)               34181     
+dense_2 (Dense)              (None, 133)               34181     
 =================================================================
 Total params: 1,230,741
 Trainable params: 1,230,741
@@ -13912,7 +13920,7 @@ _________________________________________________________________
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[16]:</div>
+<div class="prompt input_prompt">In&nbsp;[9]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">keras.optimizers</span> <span class="k">import</span> <span class="n">RMSprop</span>
@@ -14369,7 +14377,7 @@ Epoch 20/20
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[14]:</div>
+<div class="prompt input_prompt">In&nbsp;[10]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">extract_bottleneck_features</span> <span class="k">import</span> <span class="o">*</span>
@@ -14474,7 +14482,7 @@ DogInceptionV3Data. 100%[===================&gt;]   1.59G  60.5MB/s    in 28s
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[12]:</div>
+<div class="prompt input_prompt">In&nbsp;[11]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">### TODO: Obtain bottleneck features from another pre-trained CNN.</span>
@@ -14507,7 +14515,7 @@ DogInceptionV3Data. 100%[===================&gt;]   1.59G  60.5MB/s    in 28s
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[39]:</div>
+<div class="prompt input_prompt">In&nbsp;[12]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">Inception_model</span> <span class="o">=</span> <span class="n">Sequential</span><span class="p">()</span>
@@ -14534,9 +14542,9 @@ DogInceptionV3Data. 100%[===================&gt;]   1.59G  60.5MB/s    in 28s
 <pre>_________________________________________________________________
 Layer (type)                 Output Shape              Param #   
 =================================================================
-global_average_pooling2d_6 ( (None, 2048)              0         
+global_average_pooling2d_1 ( (None, 2048)              0         
 _________________________________________________________________
-dense_9 (Dense)              (None, 133)               272517    
+dense_3 (Dense)              (None, 133)               272517    
 =================================================================
 Total params: 272,517
 Trainable params: 272,517
@@ -14559,7 +14567,20 @@ _________________________________________________________________
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[40]:</div>
+<div class="prompt input_prompt">In&nbsp;[13]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">keras.optimizers</span> <span class="k">import</span> <span class="n">Adam</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[14]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">### TODO: Compile the model.</span>
@@ -14582,7 +14603,7 @@ _________________________________________________________________
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[41]:</div>
+<div class="prompt input_prompt">In&nbsp;[15]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">keras.callbacks</span> <span class="k">import</span> <span class="n">ModelCheckpoint</span>  
@@ -14610,67 +14631,117 @@ _________________________________________________________________
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>Train on 6680 samples, validate on 835 samples
 Epoch 1/20
-6560/6680 [============================&gt;.] - ETA: 0s - loss: 2.9960 - acc: 0.4259Epoch 00001: val_loss improved from inf to 1.43271, saving model to saved_models/weights.best.Inception.hdf5
-6680/6680 [==============================] - 5s 697us/step - loss: 2.9654 - acc: 0.4314 - val_loss: 1.4327 - val_acc: 0.7377
+6660/6680 [============================&gt;.] - ETA: 0s - loss: 2.9300 - acc: 0.4321Epoch 00001: val_loss improved from inf to 1.39587, saving model to saved_models/weights.best.Inception.hdf5
+6680/6680 [==============================] - 4s 541us/step - loss: 2.9252 - acc: 0.4329 - val_loss: 1.3959 - val_acc: 0.7269
 Epoch 2/20
-6640/6680 [============================&gt;.] - ETA: 0s - loss: 0.9934 - acc: 0.7925Epoch 00002: val_loss improved from 1.43271 to 0.82319, saving model to saved_models/weights.best.Inception.hdf5
-6680/6680 [==============================] - 2s 355us/step - loss: 0.9916 - acc: 0.7928 - val_loss: 0.8232 - val_acc: 0.8084
+6660/6680 [============================&gt;.] - ETA: 0s - loss: 0.9857 - acc: 0.7992Epoch 00002: val_loss improved from 1.39587 to 0.78991, saving model to saved_models/weights.best.Inception.hdf5
+6680/6680 [==============================] - 2s 307us/step - loss: 0.9864 - acc: 0.7987 - val_loss: 0.7899 - val_acc: 0.8240
 Epoch 3/20
-6580/6680 [============================&gt;.] - ETA: 0s - loss: 0.6352 - acc: 0.8502Epoch 00003: val_loss improved from 0.82319 to 0.66358, saving model to saved_models/weights.best.Inception.hdf5
-6680/6680 [==============================] - 2s 357us/step - loss: 0.6338 - acc: 0.8507 - val_loss: 0.6636 - val_acc: 0.8323
+6620/6680 [============================&gt;.] - ETA: 0s - loss: 0.6337 - acc: 0.8538Epoch 00003: val_loss improved from 0.78991 to 0.63373, saving model to saved_models/weights.best.Inception.hdf5
+6680/6680 [==============================] - 2s 307us/step - loss: 0.6338 - acc: 0.8536 - val_loss: 0.6337 - val_acc: 0.8443
 Epoch 4/20
-6640/6680 [============================&gt;.] - ETA: 0s - loss: 0.4965 - acc: 0.8755Epoch 00004: val_loss improved from 0.66358 to 0.59221, saving model to saved_models/weights.best.Inception.hdf5
-6680/6680 [==============================] - 2s 352us/step - loss: 0.4969 - acc: 0.8753 - val_loss: 0.5922 - val_acc: 0.8431
+6500/6680 [============================&gt;.] - ETA: 0s - loss: 0.4985 - acc: 0.8777Epoch 00004: val_loss improved from 0.63373 to 0.56347, saving model to saved_models/weights.best.Inception.hdf5
+6680/6680 [==============================] - 2s 306us/step - loss: 0.4970 - acc: 0.8783 - val_loss: 0.5635 - val_acc: 0.8479
 Epoch 5/20
-6600/6680 [============================&gt;.] - ETA: 0s - loss: 0.4141 - acc: 0.8982Epoch 00005: val_loss improved from 0.59221 to 0.55417, saving model to saved_models/weights.best.Inception.hdf5
-6680/6680 [==============================] - 2s 352us/step - loss: 0.4143 - acc: 0.8982 - val_loss: 0.5542 - val_acc: 0.8491
+6620/6680 [============================&gt;.] - ETA: 0s - loss: 0.4176 - acc: 0.8977Epoch 00005: val_loss improved from 0.56347 to 0.52740, saving model to saved_models/weights.best.Inception.hdf5
+6680/6680 [==============================] - 2s 308us/step - loss: 0.4174 - acc: 0.8976 - val_loss: 0.5274 - val_acc: 0.8527
 Epoch 6/20
-6540/6680 [============================&gt;.] - ETA: 0s - loss: 0.3597 - acc: 0.9127Epoch 00006: val_loss improved from 0.55417 to 0.53120, saving model to saved_models/weights.best.Inception.hdf5
-6680/6680 [==============================] - 2s 350us/step - loss: 0.3587 - acc: 0.9132 - val_loss: 0.5312 - val_acc: 0.8527
+6580/6680 [============================&gt;.] - ETA: 0s - loss: 0.3614 - acc: 0.9090Epoch 00006: val_loss improved from 0.52740 to 0.50574, saving model to saved_models/weights.best.Inception.hdf5
+6680/6680 [==============================] - 2s 305us/step - loss: 0.3609 - acc: 0.9090 - val_loss: 0.5057 - val_acc: 0.8683
 Epoch 7/20
-6580/6680 [============================&gt;.] - ETA: 0s - loss: 0.3169 - acc: 0.9229Epoch 00007: val_loss improved from 0.53120 to 0.51972, saving model to saved_models/weights.best.Inception.hdf5
-6680/6680 [==============================] - 2s 352us/step - loss: 0.3168 - acc: 0.9229 - val_loss: 0.5197 - val_acc: 0.8551
+6600/6680 [============================&gt;.] - ETA: 0s - loss: 0.3158 - acc: 0.9230Epoch 00007: val_loss improved from 0.50574 to 0.49476, saving model to saved_models/weights.best.Inception.hdf5
+6680/6680 [==============================] - 2s 308us/step - loss: 0.3165 - acc: 0.9226 - val_loss: 0.4948 - val_acc: 0.8647
 Epoch 8/20
-6540/6680 [============================&gt;.] - ETA: 0s - loss: 0.2817 - acc: 0.9309Epoch 00008: val_loss improved from 0.51972 to 0.50575, saving model to saved_models/weights.best.Inception.hdf5
-6680/6680 [==============================] - 2s 351us/step - loss: 0.2811 - acc: 0.9308 - val_loss: 0.5057 - val_acc: 0.8635
+6560/6680 [============================&gt;.] - ETA: 0s - loss: 0.2825 - acc: 0.9348Epoch 00008: val_loss improved from 0.49476 to 0.48599, saving model to saved_models/weights.best.Inception.hdf5
+6680/6680 [==============================] - 2s 305us/step - loss: 0.2822 - acc: 0.9346 - val_loss: 0.4860 - val_acc: 0.8623
 Epoch 9/20
-6520/6680 [============================&gt;.] - ETA: 0s - loss: 0.2520 - acc: 0.9393Epoch 00009: val_loss improved from 0.50575 to 0.50245, saving model to saved_models/weights.best.Inception.hdf5
-6680/6680 [==============================] - 2s 359us/step - loss: 0.2529 - acc: 0.9388 - val_loss: 0.5024 - val_acc: 0.8527
+6580/6680 [============================&gt;.] - ETA: 0s - loss: 0.2500 - acc: 0.9410Epoch 00009: val_loss improved from 0.48599 to 0.47909, saving model to saved_models/weights.best.Inception.hdf5
+6680/6680 [==============================] - 2s 308us/step - loss: 0.2515 - acc: 0.9404 - val_loss: 0.4791 - val_acc: 0.8563
 Epoch 10/20
-6580/6680 [============================&gt;.] - ETA: 0s - loss: 0.2272 - acc: 0.9476Epoch 00010: val_loss did not improve
-6680/6680 [==============================] - 2s 363us/step - loss: 0.2270 - acc: 0.9479 - val_loss: 0.5028 - val_acc: 0.8551
+6580/6680 [============================&gt;.] - ETA: 0s - loss: 0.2273 - acc: 0.9489Epoch 00010: val_loss improved from 0.47909 to 0.46689, saving model to saved_models/weights.best.Inception.hdf5
+6680/6680 [==============================] - 2s 309us/step - loss: 0.2272 - acc: 0.9488 - val_loss: 0.4669 - val_acc: 0.8707
 Epoch 11/20
-6640/6680 [============================&gt;.] - ETA: 0s - loss: 0.2044 - acc: 0.9554Epoch 00011: val_loss improved from 0.50245 to 0.48979, saving model to saved_models/weights.best.Inception.hdf5
-6680/6680 [==============================] - 2s 351us/step - loss: 0.2046 - acc: 0.9554 - val_loss: 0.4898 - val_acc: 0.8611
+6520/6680 [============================&gt;.] - ETA: 0s - loss: 0.2035 - acc: 0.9546Epoch 00011: val_loss did not improve
+6680/6680 [==============================] - 2s 308us/step - loss: 0.2048 - acc: 0.9536 - val_loss: 0.4715 - val_acc: 0.8671
 Epoch 12/20
-6600/6680 [============================&gt;.] - ETA: 0s - loss: 0.1848 - acc: 0.9611Epoch 00012: val_loss did not improve
-6680/6680 [==============================] - 2s 352us/step - loss: 0.1848 - acc: 0.9608 - val_loss: 0.4979 - val_acc: 0.8599
+6540/6680 [============================&gt;.] - ETA: 0s - loss: 0.1860 - acc: 0.9606Epoch 00012: val_loss improved from 0.46689 to 0.46316, saving model to saved_models/weights.best.Inception.hdf5
+6680/6680 [==============================] - 2s 306us/step - loss: 0.1852 - acc: 0.9608 - val_loss: 0.4632 - val_acc: 0.8647
 Epoch 13/20
-6660/6680 [============================&gt;.] - ETA: 0s - loss: 0.1677 - acc: 0.9652Epoch 00013: val_loss did not improve
-6680/6680 [==============================] - 2s 349us/step - loss: 0.1677 - acc: 0.9653 - val_loss: 0.4986 - val_acc: 0.8587
+6640/6680 [============================&gt;.] - ETA: 0s - loss: 0.1691 - acc: 0.9666Epoch 00013: val_loss did not improve
+6680/6680 [==============================] - 2s 306us/step - loss: 0.1687 - acc: 0.9668 - val_loss: 0.4654 - val_acc: 0.8683
 Epoch 14/20
-6600/6680 [============================&gt;.] - ETA: 0s - loss: 0.1532 - acc: 0.9679Epoch 00014: val_loss did not improve
-6680/6680 [==============================] - 2s 351us/step - loss: 0.1530 - acc: 0.9681 - val_loss: 0.4914 - val_acc: 0.8515
+6520/6680 [============================&gt;.] - ETA: 0s - loss: 0.1514 - acc: 0.9730Epoch 00014: val_loss did not improve
+6680/6680 [==============================] - 2s 304us/step - loss: 0.1525 - acc: 0.9726 - val_loss: 0.4655 - val_acc: 0.8671
 Epoch 15/20
-6660/6680 [============================&gt;.] - ETA: 0s - loss: 0.1396 - acc: 0.9760Epoch 00015: val_loss did not improve
-6680/6680 [==============================] - 2s 347us/step - loss: 0.1396 - acc: 0.9760 - val_loss: 0.4946 - val_acc: 0.8623
+6640/6680 [============================&gt;.] - ETA: 0s - loss: 0.1407 - acc: 0.9744Epoch 00015: val_loss improved from 0.46316 to 0.46301, saving model to saved_models/weights.best.Inception.hdf5
+6680/6680 [==============================] - 2s 308us/step - loss: 0.1408 - acc: 0.9744 - val_loss: 0.4630 - val_acc: 0.8671
 Epoch 16/20
-6640/6680 [============================&gt;.] - ETA: 0s - loss: 0.1271 - acc: 0.9785Epoch 00016: val_loss did not improve
-6680/6680 [==============================] - 2s 349us/step - loss: 0.1273 - acc: 0.9783 - val_loss: 0.4985 - val_acc: 0.8623
+6600/6680 [============================&gt;.] - ETA: 0s - loss: 0.1280 - acc: 0.9777Epoch 00016: val_loss improved from 0.46301 to 0.45954, saving model to saved_models/weights.best.Inception.hdf5
+6680/6680 [==============================] - 2s 308us/step - loss: 0.1288 - acc: 0.9774 - val_loss: 0.4595 - val_acc: 0.8671
 Epoch 17/20
-6620/6680 [============================&gt;.] - ETA: 0s - loss: 0.1164 - acc: 0.9811Epoch 00017: val_loss did not improve
-6680/6680 [==============================] - 2s 351us/step - loss: 0.1169 - acc: 0.9808 - val_loss: 0.4899 - val_acc: 0.8575
+6620/6680 [============================&gt;.] - ETA: 0s - loss: 0.1175 - acc: 0.9820Epoch 00017: val_loss did not improve
+6680/6680 [==============================] - 2s 305us/step - loss: 0.1171 - acc: 0.9822 - val_loss: 0.4651 - val_acc: 0.8659
 Epoch 18/20
-6560/6680 [============================&gt;.] - ETA: 0s - loss: 0.1074 - acc: 0.9840Epoch 00018: val_loss did not improve
-6680/6680 [==============================] - 2s 355us/step - loss: 0.1071 - acc: 0.9843 - val_loss: 0.4974 - val_acc: 0.8623
+6640/6680 [============================&gt;.] - ETA: 0s - loss: 0.1079 - acc: 0.9849Epoch 00018: val_loss did not improve
+6680/6680 [==============================] - 2s 306us/step - loss: 0.1081 - acc: 0.9849 - val_loss: 0.4674 - val_acc: 0.8599
 Epoch 19/20
-6620/6680 [============================&gt;.] - ETA: 0s - loss: 0.0985 - acc: 0.9860Epoch 00019: val_loss did not improve
-6680/6680 [==============================] - 2s 360us/step - loss: 0.0987 - acc: 0.9859 - val_loss: 0.4911 - val_acc: 0.8551
+6640/6680 [============================&gt;.] - ETA: 0s - loss: 0.0978 - acc: 0.9873Epoch 00019: val_loss did not improve
+6680/6680 [==============================] - 2s 302us/step - loss: 0.0979 - acc: 0.9873 - val_loss: 0.4626 - val_acc: 0.8659
 Epoch 20/20
-6640/6680 [============================&gt;.] - ETA: 0s - loss: 0.0911 - acc: 0.9883Epoch 00020: val_loss did not improve
-6680/6680 [==============================] - 2s 351us/step - loss: 0.0914 - acc: 0.9882 - val_loss: 0.4951 - val_acc: 0.8599
+6640/6680 [============================&gt;.] - ETA: 0s - loss: 0.0918 - acc: 0.9884Epoch 00020: val_loss did not improve
+6680/6680 [==============================] - 2s 304us/step - loss: 0.0917 - acc: 0.9885 - val_loss: 0.4629 - val_acc: 0.8635
 </pre>
 </div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[48]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+
+<span class="n">acc</span><span class="o">=</span><span class="n">history</span><span class="o">.</span><span class="n">history</span><span class="p">[</span><span class="s1">&#39;acc&#39;</span><span class="p">]</span>
+<span class="n">val_acc</span><span class="o">=</span><span class="n">history</span><span class="o">.</span><span class="n">history</span><span class="p">[</span><span class="s1">&#39;val_acc&#39;</span><span class="p">]</span>
+<span class="n">loss</span><span class="o">=</span><span class="n">history</span><span class="o">.</span><span class="n">history</span><span class="p">[</span><span class="s1">&#39;loss&#39;</span><span class="p">]</span>
+<span class="n">val_loss</span><span class="o">=</span><span class="n">history</span><span class="o">.</span><span class="n">history</span><span class="p">[</span><span class="s1">&#39;val_loss&#39;</span><span class="p">]</span>
+
+<span class="n">epoch</span><span class="o">=</span><span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">acc</span><span class="p">))</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">epoch</span><span class="p">,</span><span class="n">acc</span><span class="p">,</span><span class="s1">&#39;r&#39;</span><span class="p">,</span><span class="n">label</span><span class="o">=</span><span class="s2">&quot;train acc&quot;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">epoch</span><span class="p">,</span><span class="n">val_acc</span><span class="p">,</span><span class="s1">&#39;g&#39;</span><span class="p">,</span><span class="n">label</span><span class="o">=</span><span class="s2">&quot;val acc&quot;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s2">&quot;Training and Validation accuracy&quot;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s2">&quot;Epochs&quot;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s2">&quot;Accuracy&quot;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">legend</span><span class="p">()</span>
+
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+
+
+<div class="output_png output_subarea ">
+<img src="data:image/png;base64,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
+"
+>
+</div>
+
 </div>
 
 </div>
@@ -14686,7 +14757,7 @@ Epoch 20/20
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[42]:</div>
+<div class="prompt input_prompt">In&nbsp;[37]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">Inception_model</span><span class="o">.</span><span class="n">load_weights</span><span class="p">(</span><span class="s1">&#39;saved_models/weights.best.Inception.hdf5&#39;</span><span class="p">)</span>
@@ -14707,7 +14778,7 @@ Epoch 20/20
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[43]:</div>
+<div class="prompt input_prompt">In&nbsp;[38]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># get index of predicted dog breed for each image in test set</span>
@@ -14732,7 +14803,7 @@ Epoch 20/20
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>Test accuracy: 82.6555%
+<pre>Test accuracy: 82.5359%
 </pre>
 </div>
 </div>
@@ -14763,7 +14834,7 @@ Epoch 20/20
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[68]:</div>
+<div class="prompt input_prompt">In&nbsp;[39]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">Inception_predict_breed</span><span class="p">(</span><span class="n">img_path</span><span class="p">):</span>
@@ -14802,7 +14873,7 @@ Epoch 20/20
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[69]:</div>
+<div class="prompt input_prompt">In&nbsp;[40]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">### TODO: Write your algorithm.</span>
@@ -14848,7 +14919,7 @@ Epoch 20/20
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[70]:</div>
+<div class="prompt input_prompt">In&nbsp;[42]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">## TODO: Execute your algorithm from Step 6 on</span>
@@ -14939,7 +15010,7 @@ The predicted breed for the dog is:  Affenpinscher
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>
 Actual: human_little_blurry_image
-The resembling dog breed is :  Greyhound
+The resembling dog breed is :  Cardigan_welsh_corgi
 </pre>
 </div>
 </div>
@@ -15054,6 +15125,19 @@ The predicted breed for the dog is:  Labrador_retriever
 </div>
 </div>
 
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span> 
+</pre></div>
+
+    </div>
 </div>
 </div>
 
